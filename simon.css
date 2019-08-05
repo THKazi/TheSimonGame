@@ -16,6 +16,7 @@ h1 {
     height: 78px;
     top: 50%;
     margin-top: -39px;
+    overflow-wrap: normal;
 }
 h2 {
     position: relative;
@@ -44,4 +45,13 @@ h2 {
 }
 .d {
     background-color: darkgoldenrod;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 30px;
+    }
+    .game-btn {
+        margin: 0;
+    }
 }
