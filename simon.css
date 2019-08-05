@@ -36,12 +36,16 @@ h2 {
 .w {
     background-color: darkgreen;
     margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .a {
     background-color: darkred;
 }
 .s {
     background-color: darkblue;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 .d {
     background-color: darkgoldenrod;
