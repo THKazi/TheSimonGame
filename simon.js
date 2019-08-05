@@ -13,26 +13,29 @@ setTimeout(function(){
 function levelFade() {
     setTimeout(function(){
         $(document).off();
+        $(".game-btn").off();
         $(".game-btn").fadeOut();
         $(".level").fadeIn();
 
-        $(document).on("keypress", function(){
-            $(".level").fadeOut();
-            $(".game-btn").fadeIn();
-            sequenceGen();
-            $(document).off();
-
-            $(".game-btn").on("click", function(){
-                pressed(this.innerHTML)
-            });
-
-            $(document).on("keypress", function(e){
-                pressed(e.key)
-            });
-        });
+        $(document).on("keypress", function() {activate();});
+        $(document).on("click", function() {activate();});
     },200);
 }
 
+function activate() {
+    $(".level").fadeOut();
+    $(".game-btn").fadeIn();
+    sequenceGen();
+    $(document).off();
+
+    $(".game-btn").on("click", function(){
+        pressed(this.innerHTML)
+    });
+
+    $(document).on("keypress", function(e){
+        pressed(e.key)
+    });
+}
 
 
 
