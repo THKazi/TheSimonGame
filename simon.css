@@ -1,0 +1,47 @@
+body {
+    background-color: slategray;
+    text-align: center;
+    font-family: "Tahoma";
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    position: absolute;
+    
+    width: 660px;
+    left: 50%;
+    margin-left: -330px;
+
+    height: 78px;
+    top: 50%;
+    margin-top: -39px;
+}
+h2 {
+    position: relative;
+    top: 200px;
+}
+
+.game-btn {
+    color: white;
+    font-size: 4rem;
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px 90px;
+
+}
+.w {
+    background-color: darkgreen;
+    margin-top: 5%;
+}
+.a {
+    background-color: darkred;
+}
+.s {
+    background-color: darkblue;
+}
+.d {
+    background-color: darkgoldenrod;
+}
