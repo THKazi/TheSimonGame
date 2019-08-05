@@ -58,4 +58,8 @@ h2 {
     .game-btn {
         margin: 0;
     }
+    .w, .s {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }
